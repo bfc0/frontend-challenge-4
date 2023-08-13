@@ -27,7 +27,7 @@ h1,
 h2,
 p,
 img {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 main {
@@ -64,6 +64,40 @@ h2 {
 
 .rated-div {
     text-align: center;
+    padding: 1em;
+    background-color: var(--clr-light-grayish-magenta);
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    color: var(--clr-very-dark-magenta)
+}
+
+
+.stars>* {
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    margin: 0;
+}
+
+.review {
+    background-color: var(--clr-very-dark-magenta);
+    border-radius: 0.5em;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    color: var(--clr-white);
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.person img {
+    border-radius: 50%;
+    width: 3em;
 }
 
 :root {
@@ -73,6 +107,6 @@ h2 {
 
     --clr-dark-grayish-magenta: hsl(303, 10%, 53%);
     --clr-light-grayish-magenta: hsl(300, 24%, 96%);
-    White: hsl(0, 0%, 100%);
+    --clr-white: hsl(0, 0%, 100%);
 
 }
