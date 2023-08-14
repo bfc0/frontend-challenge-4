@@ -8,29 +8,17 @@ body,
 html {
     margin: 0;
     padding: 0;
-    /* height: 100%; */
 }
 
 body {
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    /* background-image: url("./images/bg-pattern-top-mobile.svg") no-repeat; */
     background: url("./images/bg-pattern-top-mobile.svg") no-repeat, url("./images/bg-pattern-bottom-mobile.svg") bottom no-repeat;
-    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-div,
-main,
-section,
-h1,
-h2,
-p,
-img {
-    /* border: 1px solid black; */
-}
 
 main {
     margin: auto;
@@ -205,10 +193,6 @@ h3 {
         letter-spacing: -1px;
     }
 
-
-    .review {
-        /* max-height: 100%; */
-    }
 
     .review:nth-of-type(2) {
         margin-top: 2em;
